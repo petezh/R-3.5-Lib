@@ -1,0 +1,71 @@
+importFrom("utils", "read.csv", "write.csv", "write.table", "capture.output", "installed.packages", "packageDescription", "remove.packages")
+importFrom("stats", "na.omit", "dist")
+importFrom("methods", "is")
+
+export(
+    alteb,
+    agteb,
+    aeqb,
+    asNumeric,
+        curlyBrackets,
+        insideBrackets,
+        outsideBrackets,
+        roundBrackets,
+        squareBrackets,
+        expandBrackets,
+    checkMV,
+    checkSubset,
+    classify,
+    combnk,
+    compute,
+    dashes,
+    expand,
+    factorize,
+    getInfo,
+    getLevels,
+    getMatrix,
+    intersection,
+    invert,
+    possibleNumeric,
+    prettyString,
+    prettyTable,
+    deMorgan,
+    negate,
+    recode,
+        hastilde,
+        notilde,
+        tildae,
+        tilde1st,
+    recreate,
+    replaceText,
+    simplify,
+    sop,
+    splitstr,
+    sortExpressions,
+    translate,
+    trimstr,
+    tryCatchWEM,
+    uninstall,
+    unload,
+    validateNames,
+    verify,
+    wholeNumeric,
+    writePrimeimp,
+    
+        splitMainComponents,
+        splitBrackets,
+        removeSingleStars,
+        splitPluses,
+        splitStars,
+        splitTildas,
+        solveBrackets,
+        simplifyList,
+        getNonChars
+)
+
+
+S3method(print, "admisc_factorize")
+S3method(print, "admisc_intersection")
+S3method(print, "admisc_translate")
+S3method(print, "admisc_deMorgan")
+S3method(print, "admisc_simplify")

@@ -1,0 +1,9 @@
+venn-package	venn.package
+.onAttach	venn-internal
+checkZone	venn-internal
+getCentroid	getCentroid
+getZones	getZones
+openPlot	venn-internal
+plotRules	venn-internal
+translate2	venn-internal
+venn	venn

@@ -1,0 +1,18 @@
+admisc-package          Adrian Dusa's Miscellaneous
+agteb                   Check difference and / or equality of numbers
+asNumeric               Numeric vectors
+combnk                  Generate all combinations of n numbers, taken k
+                        at a time
+compute                 Functions to interpret and manupulate a SOP/DNF
+                        expression
+factorize               Factorize Boolean expressions
+hastilde                Tildae operations
+insideBrackets          Extract information from a multi-value SOP/DNF
+                        expression
+intersection            Intersect expressions
+negate                  Negate Boolean expressions
+recode                  Recode a variable
+recreate                Facilitate expression substitution
+replaceText             Replace text in a string
+tryCatchWEM             Try functions to capture warnings, errors and
+                        messages.
